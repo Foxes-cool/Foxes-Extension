@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         Foxes
+// @version      1.0.0
+// @description  Get random fox images
+// @icon         https://raw.githubusercontent.com/Foxes-cool/Foxes-Extension/main/icons/icon-128.png
+// @namespace    https://foxes.cool
+// @match        *://*/*
+// @require      https://cdn.jsdelivr.net/gh/Foxes-cool/Foxes-Web/dist/foxes.min.js
+// @grand        none
+// ==/UserScript==
+
 let action = 0;
 
 const options = {"width": 1024, "height": 1024};
