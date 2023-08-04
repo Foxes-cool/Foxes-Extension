@@ -8,10 +8,6 @@
         "48": "icons/icon-48.png",
         "96": "icons/icon-96.png"
     },
-    "action":{
-        "default_popup": "index.html",
-        "default_title": "Foxes"
-    },
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
