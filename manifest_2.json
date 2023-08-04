@@ -1,0 +1,21 @@
+{
+    "name": "Foxes",
+    "version": "1.0.0",
+    "description": "Fox images at your finger tips",
+    "manifest_version": 2,
+    "author": "Arthur Melton",
+    "icons": {
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png",
+        "128": "icons/icon-128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+                "libraries/Foxes-Web/dist/foxes.min.js",
+                "content.user.js"
+            ]
+        }
+    ]
+}
